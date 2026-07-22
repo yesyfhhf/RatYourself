@@ -7,4 +7,7 @@ basically what this does is it allows you to see your own screen in a browser wi
 
 This thing has no real purpose other than for the funnies.
 
+To build the exe run: `python -m PyInstaller --onefile --noconsole --hidden-import=pynput.keyboard._win32 --hidden-import=pynput.mouse._win32 --hidden-import=PIL.Image --hidden-import=mss --hidden-import=pyautogui rat_panel_v2.py` in the file directory.
+
+Dependencies: `pip install flask pyautogui pillow mss pynput requests`, `pip install pyinstaller`
 
