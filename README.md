@@ -11,3 +11,4 @@ To build the exe run: `python -m PyInstaller --onefile --noconsole --hidden-impo
 
 Dependencies: `pip install flask pyautogui pillow mss pynput requests`, `pip install pyinstaller`
 
+This only works on windows and you must have python 3 installed.. obviously
